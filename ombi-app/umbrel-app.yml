@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: ombi
+id: ombi-app
 category: media
 name: Ombi
 version: "1.0.0"
