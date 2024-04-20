@@ -1,2 +1,2 @@
-id: "ombi" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "Ombi" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+id: "lol-lol" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
+name: "lol-lol" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
