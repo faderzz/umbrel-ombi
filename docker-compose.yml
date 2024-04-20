@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: ombi_server_1
+      APP_PORT: 3579
+      PROXY_AUTH_WHITELIST: "/*"
+   
+   server:
+    image: lscr.io/linuxserver/ombi:latest
+    container_name: ombi
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    ports:
+      - 3579:3579
+    restart: unless-stopped
