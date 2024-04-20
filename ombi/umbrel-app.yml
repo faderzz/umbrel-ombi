@@ -12,10 +12,6 @@ dependencies: []
 repo: https://github.com/Ombi-app/Ombi
 support: https://github.com/Ombi-app/Ombi/issues
 port: 3579
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
